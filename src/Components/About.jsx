@@ -10,33 +10,31 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/about.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "pretty robotics background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const description = "I'm a mechatronics engineering student, and a frontend developer.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
+  "Web development",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
+  "Responsive web apps",
   "Mobile user interfaces",
-  "Graphic design",
+  "Technical Writing",
 ];
 
 /**
@@ -45,7 +43,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I have a strong knowledge in HTML, CSS, JavaScript, BootStrap, React, Sass and Vite. I love utilizing these to build interactive, logical and responsive web pages. As a highly motivated frontend developer with an insatiable desire for knowledge, I am dedicated to expanding my skills and knowledge in this field. With an unwavering commitment to continuous learning and professional growth, I am eager to contribute my skills and enthusiasm to any project I am involved in.";
 
 const About = () => {
   return (
